@@ -2,7 +2,6 @@
 
 This project is a **PAN Card Number Validation System** built using **PostgreSQL**.  
 The goal is to clean, preprocess, and validate **PAN numbers** of Indian nationals based on official rules and categorize them as **Valid** or **Invalid**.  
-
 It was developed as part of a problem statement on **data cleaning and validation**.  
 
 ---
@@ -42,12 +41,6 @@ The project aims to:
 
 ---
 
-## 📂 Project Structure
-
-<pre> ```text pan-validation/ ├── scripts/ │ ├── schema.sql │ ├── functions.sql │ ├── validation_view.sql ├── screenshots/ │ ├── pan-validation-results.png │ ├── summary-report.png ├── docs/ │ └── PAN Number Validation - Problem Statement.pdf ├── README.md └── .gitignore ``` </pre>
-
----
-
 ## ⚙️ Steps Implemented
 
 ### 1. Data Cleaning
@@ -63,21 +56,22 @@ The project aims to:
 
 ### 3. Categorisation
 - Classified PAN numbers as **Valid** or **Invalid**  
-- Created a **view** `pan_status_identification` for results  
+- Created a **view** `pan_status_identification` for results
+
+## Output 
+![Validation Results](screenshots/pan-validation-results.jpg)
+  
 
 ### 4. Summary Report
 - Total records processed  
 - Valid PAN count  
 - Invalid PAN count  
-- Missing PAN count  
+- Missing PAN count
+## Output
+![Summary Report](screenshots/summary-report.jpg)
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/pan-validation.git
-   cd pan-validation
 
 
