@@ -71,6 +71,11 @@ The project aims to:
 ![Summary Report](screenshots/summary-report.jpg)
 
 ---
+## 📊 Dataset
+
+You can download or view the dataset here:  
+[PAN Number Validation Dataset.csv](docs/PAN%20Number%20Validation%20Dataset.csv)
+
 
 
 
