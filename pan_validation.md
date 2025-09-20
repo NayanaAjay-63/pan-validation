@@ -1,20 +1,18 @@
-\##
-```{=html}
-<p align="center">
-```
-PAN CARD VALIDATION USING SQL
-```{=html}
-</p>
-```
--   ##### `CTE`
+## <p align = 'center'>PAN CARD VALIDATION USING SQL</p>
+-   ##### `DDL (Create Table)`
 
--   ##### `PL/pgSQL Functions`
+-   ##### `String Functions`
+
+-   ##### `DISTINCT`
 
 -   ##### `Regular Expressions`
 
--   ##### `Data Cleaning`
+-   ##### `User-Defined Functions (PL/pgSQL)`
+-    ##### `CTE`
+-    ##### `Joins`
+- ##### `Aggregate Functions`
+-  ##### `Views`
 
--   ##### `Views`
 
 ------------------------------------------------------------------------
 
@@ -223,11 +221,5 @@ FROM summary_cte;
 
 ------------------------------------------------------------------------
 
-\##
-```{=html}
-<p align="center">
-```
-THANK YOU
-```{=html}
-</p>
-```
+
+## <p align = 'center'>THANK YOU</p>
